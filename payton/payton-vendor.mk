@@ -16,13 +16,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/etc/zaf/zaf_imx386.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_imx386.json \
     vendor/motorola/payton/proprietary/vendor/etc/zaf/zaf_imx386_mono.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_imx386_mono.json \
     vendor/motorola/payton/proprietary/vendor/etc/zaf/zaf_mot_s5k2l7sa.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_mot_s5k2l7sa.json \
-    vendor/motorola/payton/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/payton/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/motorola/payton/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/motorola/payton/proprietary/vendor/etc/camera/mot_s5k2l7sa_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_s5k2l7sa_chromatix.xml \
     vendor/motorola/payton/proprietary/vendor/etc/camera/mot_s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_s5k3p8sp_chromatix.xml \
     vendor/motorola/payton/proprietary/vendor/etc/camera/mot_s5k4h8_aux_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_s5k4h8_aux_chromatix.xml \
-    vendor/motorola/payton/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/motorola/payton/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_520.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_520.xml \
     vendor/motorola/payton/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_520.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_520.xml \
     vendor/motorola/payton/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
@@ -397,7 +395,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/lib/libvideobokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobokeh.so \
     vendor/motorola/payton/proprietary/vendor/lib/libzaf_algs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzaf_algs.so \
     vendor/motorola/payton/proprietary/vendor/lib/libzaf_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzaf_core.so \
-    vendor/motorola/payton/proprietary/vendor/lib64/com.fingerprints.extension@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0_vendor.so \
     vendor/motorola/payton/proprietary/vendor/lib64/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.sdm660.so \
     vendor/motorola/payton/proprietary/vendor/lib64/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.sdm660.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel.so \
