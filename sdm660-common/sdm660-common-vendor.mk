@@ -85,6 +85,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sdm660-common/proprietary/system/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
     vendor/motorola/sdm660-common/proprietary/vendor/etc/permissions/com.motorola.moto.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.moto.xml \
     vendor/motorola/sdm660-common/proprietary/vendor/etc/permissions/com.motorola.motodisplay.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motodisplay.xml \
+    vendor/motorola/sdm660-common/proprietary/system/etc/permissions/com.motorola.androidx.camera.extensions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.androidx.camera.extensions.xml \
+    vendor/motorola/sdm660-common/proprietary/system/etc/permissions/com.motorola.arselfie.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.arselfie.xml \
+    vendor/motorola/sdm660-common/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/sdm660-common/proprietary/system/etc/permissions/com.motorola.photoeditor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.photoeditor.xml \
+    vendor/motorola/sdm660-common/proprietary/system/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml \
+    vendor/motorola/sdm660-common/proprietary/system/etc/permissions/privapp-permissions-com.motorola.arselfie.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-com.motorola.arselfie.xml \
+    vendor/motorola/sdm660-common/proprietary/system/etc/permissions/privapp-permissions-com.motorola.camera2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
+    vendor/motorola/sdm660-common/proprietary/system/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml \
     vendor/motorola/sdm660-common/proprietary/system/etc/wfdconfig.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfig.xml \
     vendor/motorola/sdm660-common/proprietary/system/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfigsink.xml \
     vendor/motorola/sdm660-common/proprietary/system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
